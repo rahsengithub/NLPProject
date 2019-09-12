@@ -1,0 +1,49 @@
+
+General Information
+
+Vocabulary.ipynb and Pause_Predict.ipynb are notebooks containing most of the analysis (-minus the neural
+network part). 
+
+
+speech_classifier.py, train_external.py, vocabulary_trainer.py	are roughly the same work, only its cleaner, 
+and comments are also added. These files are also inside FOR_GWEEK folder, beacuse we will send that folder
+to gweek, including our model trained on external data. All team members have contributed to this code. 
+What parts of the code, and what part of the report done by each team member is described below. 
+
+
+Individual Information, Martin
+
+He has worked with data cleaning of external data (sorter.py, duration_script.py, duration_TED). He has worked with GWEEK data,
+downloading, extracting and reading JSON files (extracter.py). He has performed feature extraction of those JSON
+files in terms of vocabulary so it can be passed to algorithms (tf_idf.py, voc_getter.py). He performed the data exploration
+on the subset of Gweek data, providing graphs to the report, setting thresholds etc. He has tested the 
+classsification model created by rahul (pause model) for classifying read/planned speech. He has written 
+most of the background, also in method, and in total around 2000 words. He also applied SVD in task 1 and 
+2. He also put codes together, added comments, and saved it to a folder with a READ_ME.txt so that Gweek
+can run our model on more of their data (FOR_GWEEK).
+
+Individual Information, Rahul
+Rahul has together with Ibad been in charge of transfering audio files to Gweeks API
+so that the JSON representation of these files were returend to the team (API_access.ipynb, API_file_dump, 
+apiacess_v2.ipynb). He was responsilbe
+for feature extraction of pauses (task 2) getting it ready for analysis (Role_of_pause_v2.ipynb). Using the models from
+task 1 he could train 4 binary classification models. He had the overall responsibility of the report
+(Industrial_Team_Project_Report_Final.pdf), providing structure, and assigning writing tasks. He wrote in total approximately 2500 words.
+
+
+Individual Information, Ibad
+He has worked together with Martin on Data cleaning, converting flac files to wav files and merging(merge_audio.py, ted_sph_to_wav.py)
+He has alone been responsible for the neural network approach of task 2, describing method and also why it 
+didnt work (Deep_Learning). Together with Rahul he worked with the Gweek API, he made sure around 800 external files got
+transfered by following up on the program written by him and Rahul(post_request.py). He has performed PCA on the Gweek data
+for insight in how well our pause model is trained (Clustering.ipynb). He has written roughly 1000 words to the report mostly
+in method, and discussion.
+
+
+
+Individual Information, Abijheet
+He has worked with libraries and by that training 4 different classification methods and 1 regression 
+method (Gweek2_updated.ipynb, abi.py), using the features extracted in task 1. Furthermore he has provided the result section with 
+results from the analysis. He has contributed with roughly 1000 words to the report mostly results and 
+discussion (word_cloud_updated.pdf), also assuring appropriate use of language and referencing. 
+

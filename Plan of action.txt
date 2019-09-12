@@ -1,0 +1,46 @@
+Two parts of the project:
+Statistical and Deep - Learning
+
+
+CORPUS:
+MOSEI, Ami Corpus for the non-planned speech (might be overlapping, but not usually)
+
+Plan for Statistical:
+Machine Learning on Gweek Score:
+Instead of finding the relation between Gweek and Vocabulary, we will reverse-engineer the algorithm, and train our machine learning program to come up with a score based on the vocabulary and match that score with the Gweek score to establish a relationship.
+Given the vocabulary features and the gweek scores our task is to find the relation between the vocabulary and the gweek scores but instead of finding the realtion we will just use machine learning to train the algorithm considering the vocabulary as the features an the label as the gweek scores. If
+the machine learning algoriothm predicts correctly then we can say that we have a realtion otherwise we don't. Gweek score is the benchmark for this particular task.
+
+Thomas Hain - "INTONATION AND PAUSES ARE INDEPENDENT"
+
+Check the command line implementation for passing multiple audio files into PRAAT to get the speech contour. Also, there is a need to check github code for getting the pitch of an audio signal using get_f0.
+
+
+
+
+Plan for Deep -Learning (The whole task is a Binary Classifcation task):
+
+Data Processing - 
+PExtract features from the audio and use RNN/ CNN/ LSTM. But he preferred CNN, or we can turn it into a fixed-length data.
+
+After - 
+Use unsupervised ML algorithm called Gaussian Mixture Model to turn the data into features. 
+Or we can use MFCC to create a feature-vector.
+
+Task Description:
+Let's say that we have a 10 sec audio, we are going to break it into 1 second chunk, pass this into iur CNN to get the probability of each chunk, and then multiply these 10 individual probabilitites to get a compound probability.
+The other approach is : Let's say that we have a 10 sec audio, we are going to break it into 1 second chunk, pass this into iur CNN to get the probability of each chunk, and give the resultant probabilities as a features to another model.
+
+First Task:
+
+READ vs NON-READ
+
+If it works, second Task:
+Classify NON-READ into Planned (Ted) and Spontaneous Speech (AMI)
+
+
+
+DOWNLAOD THE TED TALK DATA
+ITS 60 GB DOWNLAOD IT PROPOERLY
+
+CREATE THE PIPELINE FOR THE TED TALK DATA AND SPLIT IT IN FOUR WAYS 

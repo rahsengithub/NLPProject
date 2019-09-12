@@ -1,0 +1,11 @@
+API: Read the document given by David.
+Have had a few questions and organised a call with him.
+
+MOM - 
+1. Write a simple python module that will upload all the required .wav files that have been split into 2-minute chunks to the API provided by Gweek. Make sure that the file is atleast of 16 KHz frequency, otherwise the accuracy retrieved will not be satisfactory.
+
+2. Get a University laptop from the Computer Science department and use it as a makeshift webhook that can be accessed by the Gweek API to spit out the converted wav to JSON files.
+
+3. Check the authorisation (bearer token)
+
+4. Establish the connectivity between the systems (a little tricky)

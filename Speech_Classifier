@@ -1,0 +1,2 @@
+For the plaaned vs read speech, we can extract the pauses from the JSON equivalents of the Gweek data. We can count the total number of pauses, the duration of pauses, the total number of filler words and their durations in each JSON file. Depending on these criteria we can create a simple binary classifier that helps us to distinguish the two kinds of speeches.
+

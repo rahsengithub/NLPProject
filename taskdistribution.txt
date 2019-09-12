@@ -1,0 +1,54 @@
+fIRST task:
+tRAIN THE DEEP LEARNING ALGORITHM ON THE GIVEN TED TALK AND THE audiobook data. test it on the 
+gweek data
+data is already cleaned  we will train it on audio wav file   people required to do this task: 2
+confirm the algorithm to particularly use. upto us. 
+if the results are not good consult thomas hain
+people: ibad martin
+.
+.
+.
+.
+second task
+get the JSON file for the audiobooks and ted talks data using the api: people required: 2 (rahul abhijeet)
+.
+.
+third task: statistical analysis.
+Train the machine learing model to predict the gweek SCORE based on the json file (particularly the vocabulary) and if the machine learnign model is converged then we can say that our there is a relation between gweek score and the vocabulary. else there is no relatioon between the gweek score and vocabulary.
+how to define the vocabulary? 
+.
+.
+coordinate with thomas hain to get the correct definition of vocabulary.
+.
+.
+prat and pitch to find the vocabulary.
+pitch and contour. ppl required: 4(ibad, martin, abhijjet, rahul)
+.
+.
+.
+.
+.
+4th task: (60%) very important. Latex
+How we write it. 
+let one person be incharge RAhul
+others contribute
+.
+.
+someone have 
+report writing (confused on the appraoch) 10,000 words and 
+.
+.
+.
+5th intonation adn pauses (dont have to do) because they are independant 
+.
+.
+coordination (martin)
+.
+.
+.
+TAsk for all: 
+create a file on google keep by your name and write every single thing you are doing over there.
+'
+
+
+
